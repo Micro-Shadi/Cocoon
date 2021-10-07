@@ -125,20 +125,12 @@
                 
             </div>
             <div class="col-md-7 align-self-end">
-                <img src="img/workers.svg" alt="" width="65%" height="auto">
+                <img src="img/hero-1.svg" alt="" width="65%" height="auto">
             </div>
         </div>
     </section>
 
     <section class="three-build text-center" data-scroll-index="0">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                   
-                    <br><br>
-                </div>
-                
-                <section class="three-build text-center" data-scroll-index="0">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -179,18 +171,22 @@
     </section>
                
 
-            </div>
-        </div>
+    
+    
+    <section>
+        @foreach($users as $user)
+        
+        <video width="100%" height="500" controls>
+                <source src="{{$user->vedo}}" type="video/mp4">
+        
+            @endforeach 
     </section>
-    
-    <section >
-    @foreach($users as $user)
-    
-    <video width="100%" height="500" controls>
-            <source src="{{$user->vedo}}" type="video/mp4">
-       
-        @endforeach 
-        </section>
+    <section class="bg-video">
+ 
+           <button href="" class="btn btn-play-video">
+            <img  src="img/play.svg" alt="">
+        </button>
+    </section>
     <section class="how-we-are container" id="11">
         <div class="row">
             <div class="col-md-7 text-right">
@@ -211,7 +207,7 @@
                 </p>
             </div>
             <div class="col-md-5 text-center">
-                <img src="img/employees.svg" width="50%" height="auto" alt="">
+                <img src="img/who-is-us.svg" width="50%" height="auto" alt="">
             </div>
         </div>
 
@@ -220,15 +216,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <img src="img/settings.svg" width="25%" height="auto" alt="">
+                    <img src="img/111.svg" width="25%" height="auto" alt="">
                     <p>الإلتزام والمسؤولية</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/settings.svg" width="25%" height="auto" alt="">
+                    <img src="img/222.svg" width="25%" height="auto" alt="">
                     <p>الإلتزام والمسؤولية</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/settings.svg" width="25%" height="auto" alt="">
+                    <img src="img/Layer_x0020_1-1.svg" width="25%" height="auto" alt="">
                     <p>الإلتزام والمسؤولية</p>
                 </div>
             </div>
@@ -258,7 +254,7 @@
                 </form>
             </div>
             <div class="col-md-5 text-center align-self-center">
-                <img src="img/phone.svg" width="70%" height="auto" alt="">
+                <img src="img/phone.svg" width="90%" height="auto" alt="">
             </div>
         </div>
     </section>
@@ -266,7 +262,7 @@
         <div class="container text-center">
             <div class="row row-footer1">
                 <div class="col-md-12">
-                    <img src="img/logo-lite.png" width="160px" height="auto" alt="">
+                    <img src="img/logo-lite.png" width="220px" height="auto" alt="">
                     <p>اشترك الآن بالقائمة البريدية
                     </p>
                    

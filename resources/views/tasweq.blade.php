@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 align-self-center">
-                    <img src="../img/dimond.svg" width="250px" alt="">
+                    <img src="../img/marketing-section.svg" width="50%" alt="">
                 </div>
                 <div class="col-md-12">
                     <br><br>

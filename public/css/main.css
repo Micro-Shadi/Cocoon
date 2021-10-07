@@ -90,6 +90,7 @@ body .circle-body {
     font: normal normal normal 14px/1 FontAwesome;
 }
 
+
 header nav.bg-light {
     padding: 10px 60px;
     background: transparent !important;
@@ -145,6 +146,8 @@ header nav.bg-light {
     text-align: right;
     white-space: normal;
 }
+
+
 
 div.dropdown-menu a:nth-child(1) {
     position: relative
@@ -223,6 +226,7 @@ section.workers .col-md-5 a {
 section.workers .col-md-5 .h2 {
     line-height: 54px;
     margin-top: 140px;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
 }
 
 section.workers .row {
@@ -235,6 +239,8 @@ section.workers a {
     display: block;
     box-shadow: 0 20px 16px -16px transparent;
 }
+
+
 
 section.workers a.a-contacts {
     margin-right: 0;
@@ -497,6 +503,8 @@ section.contact-us input.send {
     color: #4B1E59;
 }
 
+
+
 .navbar-light .navbar-nav .nav-link {
     color: #A16DB7
 }
@@ -530,14 +538,22 @@ body a.socials.instgram {
     padding-left: 0;
 }
 
+
+
 body a.socials.facebook,
 body a.socials.facebook {}
+
+
 
 body a.socials.twitter,
 body a.socials.twitter {}
 
+
+
 body a.socials.whatsapp,
 body a.socials.whatsapp {}
+
+
 
 body a.socials .fas,
 body a.socials .fas {
@@ -550,13 +566,12 @@ body .socials-mdia-div {
 
 body a.socials {
     color: #4B1E59;
-    width: 32px;
     display: inline-block;
     text-align: center;
+    width: 32px;
     height: 32px;
+    line-height: 30px;
     border-radius: 50%;
-    padding-top: 8.5px;
-    padding-left: 0px;
     margin: 0px 0px;
     transition: 0.3s;
     background: #FFCE54;
@@ -618,6 +633,8 @@ section.three-build .services::after {
     z-index: 50;
     background: #ffffff;
 }
+
+
 
 section.three-build .services * {
     position: relative;
@@ -838,6 +855,8 @@ div.three-markiting .align-self-stretch:nth-of-type(2) .markiting img {
     height: calc(100% - 90px);
 }
 
+
+
 .design-page div.three-markiting {
     padding: 100px 90px;
     padding-bottom: 0;
@@ -847,6 +866,8 @@ div.three-markiting .align-self-stretch:nth-of-type(2) .markiting img {
 .design-page div.three-markiting .align-self-stretch:nth-of-type(2) {
     transform: translate(0px, -17px);
 }
+
+
 
 div.three-markiting .markiting .img-markiting {
     position: absolute;
@@ -875,7 +896,7 @@ div.three-markiting .markiting img {
     box-shadow: 0 0px 20px #e8e8e8;
 }
 
-.other-page .dropdown-item:focus {
+.other-page .dropdown-item:focus{
     background-color: #fde5f9;
 }
 
@@ -919,6 +940,7 @@ section.bg-three-rows p {
     border: solid 2px #A16DB7;
     transition: 0.3s;
 }
+
 
 .btns-radio .container input:checked~.checkmark {
     border-color: #4B1E59;
@@ -967,19 +989,16 @@ section.bg-three-rows p {
 }
 
 .form-page form .demo ::-webkit-input-placeholder {
-    color: #D6A4C7;
-    ;
+    color : #D6A4C7 ;;
 }
 
 .form-page form .demo ::-moz-placeholder {
-    color: #D6A4C7;
-    ;
+    color : #D6A4C7 ;;
     opacity: 1;
 }
 
 .form-page form .demo :-ms-input-placeholder {
-    color: #D6A4C7;
-    ;
+    color : #D6A4C7 ;;
 }
 
 .intl-tel-input {
@@ -1030,8 +1049,7 @@ section.bg-three-rows p {
 
 input::placeholder,
 textarea::placeholder {
-    color: #D6A4C7;
-    ;
+    color : #D6A4C7 ;;
 }
 
 .intl-tel-input .country-list {
@@ -1088,6 +1106,13 @@ footer .footer-index p {
     color: #A16DB7;
 }
 
+
+
+
+
+
+
+
 body .confirm-message {
     background: #80808094;
     width: 100%;
@@ -1120,59 +1145,46 @@ body .confirm-message .confirm-text {
     margin-top: 30vh;
     display: block;
 }
-
-body.other-page footer .container-fluid {
+body.other-page footer .container-fluid{
     padding: 0;
 }
+html {margin-top: 0 !important;}
 
-html {
-    margin-top: 0 !important;
-}
-
-grammarly-desktop-integration {
+grammarly-desktop-integration{
     display: none !important;
 }
+section.bg-video::before, section.bg-three-rows::before {
 
-section.bg-video::before,
-section.bg-three-rows::before {
-    background: #4B1E59;
+    background:#4B1E59;
     opacity: 0.9;
 }
-
 section p:first-child::before {
-    top: 14px;
+    top: 2px;
     right: 0;
 }
-
-body.markiting-page section p:first-child::before,
-body.programming-page section p:first-child::before {
+body.markiting-page  section p:first-child::before,
+body.programming-page  section p:first-child::before 
+    {
     top: 3px;
     right: 0;
 }
-
-section.workers .col-md-5 a {
+section.workers .col-md-5 a{
     font-size: 13px;
     padding: 8px 35px;
     padding-bottom: 10px;
 }
-
-body.programming-page a.socials,
-body.markiting-page a.socials {
-    padding-top: 1.5px;
-}
-
-.design-page div.three-markiting .align-self-stretch:nth-of-type(2) .markiting {
-    padding: 40px 60px;
-    font-size: 14px;
-    padding-bottom: 100px;
-}
-
-textarea {
+body.programming-page a.socials,body.markiting-page a.socials {
+    padding-top: 1.5px;}
+    .design-page div.three-markiting .align-self-stretch:nth-of-type(2) .markiting{
+        padding: 40px 60px;
+        font-size: 14px;
+        padding-bottom: 100px;
+    }
+textarea{
     padding-top: 12px;
 }
-
 body .video-overlay {
-    background: #230616f2;
+background: #230616f2;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -1249,61 +1261,48 @@ section.bg-three-rows .col-md-4 {
 }
 
 .btn-menu-on-mobile .btn-menu-on-mobile-icon:nth-of-type(2) {
-    margin-top: 14px;
+    margin-top: -30px;
 }
 
 .btn-menu-on-mobile .btn-menu-on-mobile-icon:nth-of-type(3) {
-    margin-top: -13px;
+    margin-top: -60px;
 }
-
 body .btn.btn-menu-on-mobile {
     background: transparent;
     border: none;
     display: none;
 }
-
-section.workers img {
-    transform: translate(0px, 60px);
-    width: 60%;
-}
-
+        section.workers img {
+        transform: translate(0px, 60px);
+        width: 60%;
+    }
 video.videoshow {
     height: 70vh;
     top: 15vh;
-    background: black;
-    order-radius: 20px;
+  background  : black;
+  order-radius: 20px;
 }
 
-body.programming-page section p:first-child::before,
-body.markiting-page section p:first-child::before {
+body.programming-page section p:first-child::before,body.markiting-page section p:first-child::before {
     top: 16px;
 }
-
-body.programming-page div.three-markiting .markiting .img-markiting img,
-body.markiting-page div.three-markiting .markiting .img-markiting img {
+body.programming-page div.three-markiting .markiting .img-markiting img,body.markiting-page div.three-markiting .markiting .img-markiting img{
     height: 100px !important;
     width: auto !important;
 }
-
-body.programming-page .align-self-stretch .markiting,
-body.markiting-page .align-self-stretch .markiting {
+body.programming-page .align-self-stretch .markiting,body.markiting-page .align-self-stretch .markiting {
     padding-top: 160px;
 }
-
-body.programming-page a.socials,
-body.markiting-page a.socials {
+body.programming-page a.socials, body.markiting-page a.socials {
     padding-top: 7.5px;
     padding-left: 2px;
 }
-
-body.markiting-page .align-self-stretch:nth-of-type(1) .markiting img {
+body.markiting-page .align-self-stretch:nth-of-type(1) .markiting img{
     transform: translate(10px, 0px);
 }
-
-.design-page div.three-markiting {
+.design-page div.three-markiting{
     padding-top: 10px;
 }
-
 section.bg-three-rows img {
     height: 80px;
     width: auto;
@@ -1326,7 +1325,6 @@ body .btn-linear-hover {
     position: relative;
     z-index: 100;
 }
-
 body .btn-linear-hover::after {
     position: absolute;
     top: 32px;
@@ -1342,21 +1340,8 @@ body .btn-linear-hover::after {
     background: linear-gradient( 295deg, #ED5564 -16%, #8116AF);
     visibility: hidden;
 }
-
 .design-page .align-self-stretch:nth-of-type(2) .markiting .btn-linear-hover,
 .design-page .align-self-stretch:nth-of-type(2) .markiting .btn-linear-hover:before {
     color: #4B1E59;
     background: #ffffff;
-}
-
-body a.socials {
-    padding-top: 3.5px;
-}
-
-.btn-menu-on-mobile .btn-menu-on-mobile-icon:nth-of-type(2) {
-    margin-top: -31px;
-}
-
-.btn-menu-on-mobile .btn-menu-on-mobile-icon:nth-of-type(3) {
-    margin-top: -63px;
 }
